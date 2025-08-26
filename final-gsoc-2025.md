@@ -35,7 +35,7 @@ This work makes Airavata easier to run, test, and extend, while laying the found
 
 ### 1. Clone the Repository  
 ```bash
-[git clone https://github.com/apache/airavata]
+git clone https://github.com/apache/airavata
 cd airavata
 ````
 
