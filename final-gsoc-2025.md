@@ -2,9 +2,9 @@
 **Google Summer of Code 2025 – Final Work Submission**  
 **Contributor:** Yasindu Dissanayake  
 **Organization:** The Apache Software Foundation – Apache Airavata  
-**Project Page:** [GSoC Dashboard](https://summerofcode.withgoogle.com/programs/2025/projects/XV40d7XV)  
+**Project Page:** [GSoC Project Page](https://summerofcode.withgoogle.com/programs/2025/projects/XV40d7XV)  
 
-## 📌 Project Overview  
+# 📌 Project Overview  
 This project aimed to **containerize Apache Airavata services** to simplify deployment, improve consistency across environments, and enable modern DevOps workflows.  
 
 Traditionally, Airavata services were distributed as Java bundles, making deployment complex and error-prone. My work focused on:  
@@ -16,7 +16,7 @@ Traditionally, Airavata services were distributed as Java bundles, making deploy
 
 This work makes Airavata easier to run, test, and extend, while laying the foundation for future **Kubernetes/Helm-based production deployments**.  
 
-## 🎯 Goals  
+# 🎯 Goals  
 - ✅ Containerize all core Airavata services (API Server, Registry, Orchestrator, Credential Store, etc.)  
 - ✅ Provide a functional Docker Compose setup  
 - ✅ Implement multi-stage builds to reduce image size  
@@ -24,15 +24,14 @@ This work makes Airavata easier to run, test, and extend, while laying the found
 - ✅ Integrate CI/CD pipelines with GitHub Actions  
 - ✅ Deliver documentation, usage guide, and demo  
 
-## 🚀 Deliverables  
+# 🚀 Deliverables  
 - **Dockerfiles** for Airavata services  
 - **docker-compose.yml** for local orchestration  
 - **GitHub Actions CI/CD** for automated builds, tests, and publishing  
 - **Optimized images** for development and production  
-- **Documentation** (this README + usage guide)  
-- **Final demo video and walkthrough** (shared with mentors/community)  
+- **Documentation** (this README + usage guide)   
 
-## 🛠️ Setup & Usage  
+# 🛠️ Setup & Usage  
 
 ### 1. Clone the Repository  
 ```bash
@@ -58,7 +57,7 @@ This will:
 docker-compose down
 ```
 
-## 📂 Contributions
+# 📂 Contributions
 
 ### Apache Airavata
 
@@ -75,20 +74,20 @@ docker-compose down
 
 * [PR #195](https://github.com/apache/airavata-django-portal/pull/195) – Docker/CI improvements
 
-## 📊 Current State
+# 📊 Current State
 
 * Core services run reliably in Docker
 * Local developers can spin up the stack with one command
 * CI/CD builds images automatically and validates changes
 * Documentation covers setup, configs, and contributions
 
-## 🔮 Future Improvements
+# 🔮 Future Improvements
 
 * Secrets integration (Vault)
 * Observability (Prometheus, Grafana, ELK stack)
 * Security hardening for production environments
 
-## 🧩 Challenges & Learnings
+# 🧩 Challenges & Learnings
 
 * Decomposing **legacy Java-based services** into container-friendly units
 * Managing **service interdependencies** in Compose
@@ -96,11 +95,11 @@ docker-compose down
 * Building scalable **CI/CD pipelines** for open-source projects
 * Collaboration with Apache mentors and community via PR reviews & mailing lists
 
-## 🔗 Links
+# 🔗 Links
 
 * 📘 [GSoC Project Page](https://summerofcode.withgoogle.com/programs/2025/projects/XV40d7XV)
 * 🐙 [GitHub Profile](https://github.com/mryash-dev)
 
-## 🙏 Acknowledgements
+# 🙏 Acknowledgements
 
 Huge thanks to my mentors and the **Apache Airavata community** for their guidance and feedback throughout the program. This project gave me hands on experience in **DevOps, containerization, CI/CD**, and contributing to large scale open source projects.
