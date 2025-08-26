@@ -1,4 +1,3 @@
-
 # Containerized Deployment of Apache Airavata Services  
 **Google Summer of Code 2025 – Final Work Submission**  
 **Contributor:** Yasindu Dissanayake  
@@ -105,4 +104,3 @@ docker-compose down
 ## 🙏 Acknowledgements
 
 Huge thanks to my mentors and the **Apache Airavata community** for their guidance and feedback throughout the program. This project gave me hands on experience in **DevOps, containerization, CI/CD**, and contributing to large scale open source projects.
-
